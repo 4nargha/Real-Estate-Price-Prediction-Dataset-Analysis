@@ -34,11 +34,12 @@ The primary objective of this analysis is to predict housing prices based on var
 - **Libraries**: NumPy, Pandas, Seaborn, Matplotlib, Scikit-learn
 
 ## Authors
-- Anargha Manoj
-- Sharon Victor
-- Simranjeet Kaur
-- Lakshmi Kumari
-- Navneet Kaur
+- Anargha Manoj-Dataset Selection,Data Cleaning,Data Exploration,Feature Engineering
+- Simranjeet Kaur-Model Selection,Hyperparameter Tuning
+- Sharon Victor-Pickle Files,Flask Web Application
+- Lakshmi Kumari-Flask Web Application,GitHub Repository
+- Navneet Kaur-Cloud Deployment
+
 
 Feel free to contribute, modify, or use this codebase for your projects!
 
