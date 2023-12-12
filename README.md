@@ -17,7 +17,7 @@ The primary objective of this analysis is to predict housing prices based on var
 - **Outlier Detection and Removal**: Identify outliers using IQR (Interquartile Range) and remove them from the dataset.
 - **Feature Engineering**: Transform categorical variables into numerical representations using one-hot encoding.
 - **Scaling**: Scale numerical features using MinMaxScaler to bring them within a specific range.
-- **Modeling**: Build and train machine learning models for predicting house prices. Common regression models such as Linear Regression, Ridge, Lasso, ElasticNet, Random Forest Regressor, Support Vector Regressor, and XGBoost are explored.
+- **Modeling**: Build and train machine learning models for predicting house prices. Common regression models such as Linear Regression, Ridge, Random Forest Regressor and ANN
 - **Evaluation**: Assess the performance of each model using evaluation metrics like R-squared (R²), Mean Absolute Error (MAE), and Mean Squared Error (MSE).
 - **Visualization**: Create visualizations to understand feature importance, distributions, and relationships among variables.
 - **Conclusion**: Summarize findings, limitations, and potential areas for further improvement.
@@ -31,14 +31,22 @@ The primary objective of this analysis is to predict housing prices based on var
 
 ## Requirements
 - **Python (3.x)**
-- **Libraries**: NumPy, Pandas, Seaborn, Matplotlib, Scikit-learn
+- **Libraries**: NumPy, Pandas, Seaborn, Matplotlib, Scikit-learnn, pickel, Keras, Flask, 
+
+Model Evaluation
+Linear Regression using Ridge 
+Accuracy-66%
+Random Forest using Random Seactrh CV
+Accuracy-69.5
+ANN
+Accuracy-59.3%
 
 ## Authors
-- Anargha Manoj-Dataset Selection,Data Cleaning,Data Exploration,Feature Engineering
-- Simranjeet Kaur-Model Selection,Hyperparameter Tuning
-- Sharon Victor-Pickle Files,Flask Web Application
-- Lakshmi Kumari-Flask Web Application,GitHub Repository
-- Navneet Kaur-Cloud Deployment
+- Anargha Manoj-Dataset Selection,Data Preprocessing, EDA
+- Simranjeet Kaur-EDA, Model Selection, Model Evaluation
+- Sharon Victor-Model Evaluation, Hyperparameter Tunnig, Pickel Files
+- Lakshmi Kumari-Pickel Files, Flask Web Application
+- Navneet Kaur-Flask Web Application, GitHub Repository, Deployment
 
 
 Feel free to contribute, modify, or use this codebase for your projects!
