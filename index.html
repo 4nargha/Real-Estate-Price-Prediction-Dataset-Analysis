@@ -1,0 +1,31 @@
+<html>
+<body>
+    <div class="login">
+        <h1>House Price Prediction</h1>
+        <form action="{{url_for('predict_datapoint')}}" method="post">
+            <input type="text" name="bedrooms" placeholder="bedrooms" required="required"/><br>
+            <input type="text" name="bathrooms" placeholder="bathroooms" required="required"/><br>
+            <input type="text" name="sqft_living" placeholder="sqft_living" required="required"/><br>
+            <input type="text" name="sqft_lot" placeholder="sqft_lot" required="required"/><br>
+            <input type="text" name="floors" placeholder="floors" required="required"/><br>
+            <input type="text" name="waterfront" placeholder="waterfront" required="required"/><br>
+            <input type="text" name="view" placeholder="view" required="required"/><br>
+            <input type="text" name="condition" placeholder="condition" required="required"/><br>
+            <input type="text" name="sqft_basement" placeholder="sqft_basement" required="required"/><br>
+            <input type="text" name="yr_built" placeholder="yr_built" required="required"/><br>
+            <input type="text" name="yr_renovated" placeholder="yr_renovated" required="required"/><br>
+            
+            <label for="city">Select City:</label>
+            <select name="city" id="city" required="required">
+                {% for city in available_cities %}
+                    <option value="{{ city }}">{{ city }}</option>
+                {% endfor %}
+            </select><br>
+            <button type= "submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </form>
+    <h2>
+        The House Price prediction is {{result}}
+    </h2>
+    </div>
+</body>
+</html
